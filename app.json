@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Inopia_Week2",
-    "slug": "Inopia_Week2",
+    "name": "Inopia-Week2",
+    "slug": "inopia-week2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
