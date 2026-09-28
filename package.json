@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "inopia-tindahan-ledger",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
