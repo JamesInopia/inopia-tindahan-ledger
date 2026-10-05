@@ -25,6 +25,13 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Tindahan Ledger accesses your photos to set the store photo.",
+          "cameraPermission": "Tindahan Ledger uses the camera to take a photo of the store."
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
@@ -33,7 +40,8 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,

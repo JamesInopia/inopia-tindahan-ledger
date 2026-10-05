@@ -28,6 +28,11 @@ export default function AppTabs() {
           renderingMode="template"
         />
       </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name="account">
+        <NativeTabs.Trigger.Label>Customers</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="person.crop.circle" md="manage_accounts" />
+      </NativeTabs.Trigger>
     </NativeTabs>
   );
 }
